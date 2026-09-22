@@ -4,22 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Mon espace étudiant</h1>
-    <img src="images/profile.png" alt="" />
-    <h2>Nom : Abidi</h2>
-    <h2>Prenom: Bacem</h2>
-    <img src="images/logo-iset.png" alt="" />
-    <h3>Bienvenue dans mon espace étudiant</h3>
-    <p>Bonjuer et bienvenue sur mon espace étudiant !</p>
-    <p>
-      je suis étudiant a l'ISET Charguia dans le domaine des Technologies de
-      l'informatique.
-    </p>
-    <p>
-      Ce Site présente ma formation, mes matières et quelques informations
-      utiles sur mon parcours
-    </p>
+    <header id="accueil">
+      <nav>
+        <img src="images/logo-iset.png" alt="" />
+
+        <ul>
+          <li><a href="index.html">accueil</a></li>
+          <li><a href="matiers/matiers.html" target="_blank">Matiére</a></li>
+          <li>
+            <a href="formation/formation.html" target="_blank">Formation</a>
+          </li>
+          <li><a href="contact/contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Mon espace étudiant</h1>
+        <img src="images/profile.png" id="profile" alt="" />
+        <h2>Nom : Abidi</h2>
+        <h2>Prenom: Bacem</h2>
+        <img src="images/logo-iset.png" alt="" />
+        <h3>Bienvenue dans mon espace étudiant</h3>
+        <p>Bonjuer et bienvenue sur mon espace étudiant !</p>
+        <p>
+          je suis étudiant a l'ISET Charguia dans le domaine des Technologies de
+          l'informatique.
+        </p>
+        <p>
+          Ce Site présente ma formation, mes matières et quelques informations
+          utiles sur mon parcours
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="#accueil">Retour a la haut de la page</a>
+    </footer>
   </body>
 </html>

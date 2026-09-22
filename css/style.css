@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+nav img {
+  width: 60px;
+}
+nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 10px;
+}
+#profile {
+  width: 200px;
+}
